@@ -44,6 +44,10 @@ INSTALLED_APPS += [
     "cards.apps.CardsConfig",
     ]
 
+INSTALLED_APPS += [
+    "django.contrib.humanize",
+    ]
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
